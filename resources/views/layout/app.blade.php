@@ -8,7 +8,7 @@
     <title>@yield('title') | Laravel Layout</title>
 </head>
 <body>
-    @include('header')
+    @include('partials.header')
     @yield('content')
 </body>
 </html>
