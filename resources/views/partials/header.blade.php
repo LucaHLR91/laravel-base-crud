@@ -13,7 +13,7 @@
                           <a class="nav-link" href="{{ route('pagina-home') }}">Home<span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Shop</a>
+                          <a class="nav-link" href="{{ route('comics.create') }}">New ComicBook</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">About US</a>
