@@ -15,6 +15,9 @@
                             <p>{{ $comic['series'] }}</p>
                             <p>{{ $comic['price'] . ' ' . '€'}} </p>
                         </div>
+                        <div class="buttons">
+                            <a href="{{ route('comics.edit', $comic['id']) }}" class="btn btn-warning">Edit</a>
+                        </div>
                     </div>
                 @endforeach
             </div>
