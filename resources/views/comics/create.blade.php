@@ -38,7 +38,7 @@
                         <label for="type">Type</label>
                         <input type="text" class="form-control" name="type" id="type"  placeholder="Enter Type">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary mt-4">Submit</button>
                 </form>
             </div>
         </div>
